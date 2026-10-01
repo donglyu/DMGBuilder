@@ -2,6 +2,10 @@
 
 A native macOS GUI for creating a `.dmg` from an existing macOS `.app` bundle. It provides a point-and-click alternative to the [`create-dmg` command-line tool](https://github.com/sindresorhus/create-dmg), so you can choose the app, destination, and optional files or folders without running `create-dmg` commands in Terminal. The app stages the selected items in a temporary folder, adds an `/Applications` shortcut, and asks macOS's built-in `hdiutil` to create a compressed, read-only UDZO image. Additional items appear beside the app at the root of the mounted image.
 
+
+
+![example](./imgs/example.png)
+
 ## Requirements and assumptions
 
 - macOS 13 (Ventura) or later to run the app.
